@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Transmitter">WiFi Controller Ver.0.9</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="lbAbout">about</string>  
+    <string name="lbSet">settings</string> 
+    <string name="exit">exit</string>
+    <string name="connect">connect</string>
+    
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect_dev">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="configuration">Configuration</string>
+    <string name="motor_strength">Motor Strength</string>
+    <string name="UseAccel">Use Accelerometer</string>
+    <string name="ctrl_mode">Control Mode</string>
+    <string name="mode_car">2CH MONSTER TRUCK</string>
+    <string name="mode_DLG">2CH DLG</string>
+    <string name="mode_yacht">3CH SAIL YACHT</string>
+</resources>

@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    tools:context=".TransmitterActivity" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+    <CheckBox
+        android:id="@+id/use_accel"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/UseAccel"
+        android:textColor="#00B2A9"
+        android:textSize="12sp" />
+    
+    <TextView
+        android:id="@+id/info_motorstrength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:textColor="#00B2A9"
+		android:textSize="12sp"
+        android:text="@string/motor_strength"
+        />
+
+    <TextView
+        android:id="@+id/info_motorstrength_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#00B2A9"
+        android:textSize="12sp" />
+    
+    <SeekBar
+        android:id="@+id/motorstrength"
+        android:layout_width="238dp"
+        android:layout_marginTop="35dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/ctrl_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:textColor="#00B2A9"
+        android:text="@string/ctrl_mode"
+        android:textSize="12sp" />
+
+	<RadioGroup
+	android:id="@+id/radioGroup"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RadioButton
+        android:id="@+id/mode_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="@string/mode_car"
+		android:textColor="#00B2A9"
+        android:textSize="12sp" />
+
+    <RadioButton
+        android:id="@+id/mode_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mode_DLG"
+		android:textColor="#00B2A9"
+        android:textSize="12sp" />
+ 
+    <RadioButton
+        android:id="@+id/mode_option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mode_yacht"
+		android:textColor="#00B2A9"
+        android:textSize="12sp" />
+	</RadioGroup>
+
+</FrameLayout>
